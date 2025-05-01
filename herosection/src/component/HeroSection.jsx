@@ -1,11 +1,21 @@
 import React from "react";
+import logo from "../assets/logo.svg";
+import imageComputer from "../assets/image-computer.png";
+import imageDevices from "../assets/image-devices.png";
+import iconBlacklist from "../assets/icon-blacklist.svg";
+import iconPreview from "../assets/icon-preview.svg";
+import iconText from "../assets/icon-text.svg";
+import logoGoogle from "../assets/logo-google.png";
+import logoIbm from "../assets/logo-ibm.png";
+import logoHp from "../assets/logo-hp.png";
+import logoMicrosoft from "../assets/logo-microsoft.png";
 
 function HeroSection() {
   return (
     <div className="flex flex-col mx-auto   ">
       \{/* image  logo div */}
       <section className="max-w-6xl mx-auto  text-center mb-40 px-10 pt-16">
-        <img className="mx-auto my-16" src="../../public/logo.svg"></img>
+        <img className="mx-auto my-16" src={logo}></img>
         <h3 className=" text-3xl font-bold mb-8 md:text-5xl ">
           A histtory of everything you copy
         </h3>
@@ -43,7 +53,7 @@ function HeroSection() {
         <div className="my-10"> 
         <div className="relative p-8 flex flex-col md:flex-row md:space-x-32">
           <div className="md:w-1/2 " >
-            <img className=" md:absolute top-0 right-[50%] " src="../../public/image-computer.png "></img>
+            <img className=" md:absolute top-0 right-[50%] " src={imageComputer}></img>
 
 
          
@@ -74,7 +84,7 @@ function HeroSection() {
 
         </div>
           <div className="">
-            <img className="" src="../../public/image-devices.png"></img>
+            <img className="" src={imageDevices}></img>
           </div>
           <div className="">
         <h5 className="text-4xl font-bold ">
@@ -87,19 +97,19 @@ function HeroSection() {
       <section>
         <div className="mx-auto md:flex-row mt-10 md:mt-20 flex  md:justify-between flex-col text-center space-y-4">
           <div className="flex justify-center">
-            <img className="mx-auto md:mx-auto " src="../../public/icon-blacklist.svg"></img>
+            <img className="mx-auto md:mx-auto " src={iconBlacklist}></img>
           <div className="flex flex-col">
             <p className="text-2xl"> Create a blacklist</p>
           </div>
           </div>
           <div className="">
-            <img className="mx-auto" src="../../public/icon-preview.svg"></img>
+            <img className="mx-auto" src={iconPreview}></img>
           <div className="flex flex-col">
             <p className="text-2xl"> Create a blacklist</p>
           </div>
           </div>
           <div className="">
-            <img className="mx-auto" src="../../public//icon-text.svg"></img>
+            <img className="mx-auto" src={iconText}></img>
           <div className="flex flex-col">
             <p className="text-2xl"> Create a blacklist</p>
           </div>
@@ -109,22 +119,22 @@ function HeroSection() {
       <section>
         <div className=" mt-20 space-y-10 md:space-y-0 md:mt-50 flex flex-col md:flex-row mx-auto p-10 justify-center md:justify-between">
           <div className="">
-            <img className="mx-auto" src="../../public/logo-google.png"></img>
+            <img className="mx-auto" src={logoGoogle}></img>
           </div>
           <div className="">
-            <img className="mx-auto" src="../../public/logo-ibm.png"></img>
+            <img className="mx-auto" src={logoIbm}></img>
           </div>
           <div className="">
-            <img className="mx-auto" src="../../public/logo-hp.png"></img>
+            <img className="mx-auto" src={logoMicrosoft}></img>
           </div>
           <div className="">
-            <img className="mx-auto" src="../../public/logo-microsoft.png"></img>
+            <img className="mx-auto" src={logoHp}></img>
           </div>
         </div>
 
       </section>
       <section className="max-w-6xl mx-auto  text-center mb-40 px-10 pt-16">
-        <img className="mx-auto my-16" src="../../public/logo.svg"></img>
+        <img className="mx-auto my-16" src={logo}></img>
         <h3 className=" text-3xl font-bold mb-8 md:text-5xl ">
 Clipboard for iOS and Window
         </h3>
