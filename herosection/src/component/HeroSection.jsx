@@ -1,15 +1,14 @@
 import React from "react";
-import logo from "../assets/logo.svg";
-import imageComputer from "../assets/image-computer.png";
-import imageDevices from "../assets/image-devices.png";
-import iconBlacklist from "../assets/icon-blacklist.svg";
-import iconPreview from "../assets/icon-preview.svg";
-import iconText from "../assets/icon-text.svg";
-import logoGoogle from "../assets/logo-google.png";
-import logoIbm from "../assets/logo-ibm.png";
-import logoHp from "../assets/logo-hp.png";
-import logoMicrosoft from "../assets/logo-microsoft.png";
+import logo from "../../public/logo.svg";
+import imageComputer from "../../public/image-computer.png";
+import imageDevices from "../../public/image-devices.png";
+import iconBlacklist from "../../public/icon-blacklist.svg";
+import iconPreview from "../../public/icon-preview.svg";
 
+import logoGoogle from "../../public/logo-google.png";
+import logoIbm from "../../public/logo-ibm.png";
+import logoHp from "../../public/logo-hp.png";
+import logoMicrosoft from "../../public/logo-microsoft.png";
 function HeroSection() {
   return (
     <div className="flex flex-col mx-auto   ">
@@ -109,7 +108,7 @@ function HeroSection() {
           </div>
           </div>
           <div className="">
-            <img className="mx-auto" src={iconText}></img>
+            <img className="mx-auto" src={""}></img>
           <div className="flex flex-col">
             <p className="text-2xl"> Create a blacklist</p>
           </div>
