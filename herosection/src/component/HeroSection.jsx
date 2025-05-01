@@ -95,7 +95,7 @@ function HeroSection() {
       </section>
       <section>
         <div className="mx-auto md:flex-row mt-10 md:mt-20 flex  md:justify-between flex-col text-center space-y-4">
-          <div className="flex justify-center">
+          <div className="">
             <img className="mx-auto md:mx-auto " src={iconBlacklist}></img>
           <div className="flex flex-col">
             <p className="text-2xl"> Create a blacklist</p>
